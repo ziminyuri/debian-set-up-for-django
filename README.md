@@ -5,6 +5,11 @@ In this guide we will set up clean Debian server for Python and Django projects.
 [Youtube video guide (in Russian)](https://www.youtube.com/watch?v=FLiKTJqyyvs)
 
 ## Create user, setup SSH
+Add sudo. You need to connect server via root user
+```
+apt install sudo
+usermod -aG sudo battler
+```
 
 Connect through SSH to remote Debian server and update repositories and install some initial needed packages:
 
